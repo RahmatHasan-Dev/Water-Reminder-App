@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48"
+    android:tint="#2563EB">
+    <!-- Square with rounded corners outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#2563EB"
+        android:strokeWidth="4"
+        android:pathData="M16,4 H32 A12,12 0 0 1 44,16 V32 A12,12 0 0 1 32,44 H16 A12,12 0 0 1 4,32 V16 A12,12 0 0 1 16,4"/>
+    
+    <!-- Checkmark -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#2563EB"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M14,24 L20,30 L34,16"/>
+</vector>

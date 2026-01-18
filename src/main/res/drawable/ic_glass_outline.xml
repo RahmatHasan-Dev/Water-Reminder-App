@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#2563EB">
+    <!-- Glass Shape -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#2563EB"
+        android:strokeWidth="2"
+        android:pathData="M5,4 L19,4 L17,20 H7 L5,4 Z"/>
+    
+    <!-- Water Level (approx 2/3 full for visual) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#2563EB"
+        android:strokeWidth="2"
+        android:pathData="M5.5,8 Q12,10 18.5,8"/>
+</vector>

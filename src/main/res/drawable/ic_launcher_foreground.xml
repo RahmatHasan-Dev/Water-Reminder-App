@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Bagian Bawah (Body) - Biru Utama -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M34,50 V70 C34,85 40,94 54,94 C68,94 74,85 74,70 V50 H34 Z" />
+        
+    <!-- Bagian Tengah (Water Level) - Biru Sedang -->
+    <path
+        android:fillColor="#60A5FA"
+        android:pathData="M34,38 H74 V50 H34 Z" />
+        
+    <!-- Bagian Atas (Rim) - Biru Sangat Muda/Putih -->
+    <path
+        android:fillColor="#BFDBFE"
+        android:pathData="M34,32 H74 V38 H34 Z" />
+</vector>

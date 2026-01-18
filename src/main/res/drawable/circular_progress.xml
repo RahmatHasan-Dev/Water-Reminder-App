@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Track -->
+    <item android:id="@android:id/background">
+        <shape android:shape="ring"
+            android:thicknessRatio="10"
+            android:useLevel="false">
+            <solid android:color="@color/light_blue_track" />
+        </shape>
+    </item>
+
+    <!-- Progress with Gradient and Soft Corners -->
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270">
+            <shape android:shape="ring"
+                android:thicknessRatio="10"
+                android:useLevel="true">
+                <gradient
+                    android:startColor="#003B82F6"
+                    android:endColor="@color/primary_blue"
+                    android:type="sweep" />
+                <corners android:radius="100dp" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

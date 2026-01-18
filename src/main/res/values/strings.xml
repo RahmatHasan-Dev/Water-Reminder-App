@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Water Reminder App</string>
+
+    <!-- Main Screen -->
+    <string name="current_hydration">Current Hydration</string>
+    <string name="unit_ml">ml</string>
+    <string name="percentage_format">%1$d%% of %2$d ml</string>
+    <string name="action_bonus_features">Bonus Features</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_add">Add</string>
+    <string name="nav_edit">Edit</string>
+    <string name="nav_history">History</string>
+
+    <!-- Add/Edit Entry -->
+    <string name="title_add_entry">Add Entry</string>
+    <string name="title_edit_entry">Edit Entry</string>
+    <string name="quick_add_100ml">100 ml</string>
+    <string name="quick_add_200ml">200 ml</string>
+    <string name="quick_add_300ml">300 ml</string>
+    <string name="quick_add_400ml">400 ml</string>
+    <string name="quick_add_500ml">500 ml</string>
+    <string name="label_custom">Custom</string>
+    <string name="dialog_title_custom_entry">Custom Entry</string>
+    <string name="dialog_hint_amount">Enter amount in ml</string>
+
+    <!-- Set Target -->
+    <string name="title_set_target">Set Your Daily Target</string>
+    <string name="label_current_target">Current Target</string>
+    <string name="action_save_custom_target">Save Custom Target</string>
+    <string name="hint_enter_custom_target">Or enter a custom target in ml</string>
+    <string name="quick_select_1000ml">1000 ml</string>
+    <string name="quick_select_2000ml">2000 ml</string>
+    <string name="quick_select_3000ml">3000 ml</string>
+
+    <!-- History -->
+    <string name="title_history">History</string>
+    <string name="label_todays_entries">Today\'s Entries</string>
+
+    <!-- Dialogs & Toasts -->
+    <string name="dialog_action_save">Save</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="dialog_action_delete">Delete</string>
+    <string name="dialog_title_delete_entry">Delete Entry</string>
+    <string name="dialog_message_delete_entry">Are you sure you want to delete this entry?</string>
+    <string name="dialog_title_delete_history">Delete History</string>
+    <string name="dialog_message_delete_history">Are you sure you want to delete all entries for this date (%s)?</string>
+    <string name="toast_enter_valid_target">Please enter a valid target</string>
+    <string name="toast_history_for_date_deleted">History for %s deleted!</string>
+    <string name="toast_entry_updated">Entry updated!</string>
+    <string name="toast_entry_deleted">Entry deleted!</string>
+    <string name="toast_entry_saved">Entry saved successfully!</string>
+    <string name="error_amount_empty">Amount cannot be empty</string>
+    <string name="error_enter_valid_amount">Please enter a valid amount</string>
+    <string name="notification_channel_name">Water Reminder Channel</string>
+    <string name="notification_channel_description">Channel for water reminder notifications</string>
+
+</resources>
